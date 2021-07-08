@@ -2,7 +2,7 @@
 
 - AWS CCP has some very unique offering whereas no other AWS Certifications offer, which is that they provide a strong focus on billing and business centric concepts.
 
-### Overview of the AWS Global Infrastructure
+## Overview of the AWS Global Infrastructure
 
 **Links** - https://aws.amazon.com/about-aws/global-infrastructure/ & https://docs.aws.amazon.com/whitepapers/latest/aws-overview/global-infrastructure.html
 
@@ -17,7 +17,9 @@
 
 ![image](https://user-images.githubusercontent.com/84306023/124888963-39d1d800-dff4-11eb-9f73-fb4f52325a70.png)
 
-###Regions
+
+
+### Regions
 
 ![image](https://user-images.githubusercontent.com/84306023/124890738-f9735980-dff5-11eb-8fdc-cdb0b52f20ef.png)
 
@@ -25,7 +27,38 @@
 - Most companies or enterprises has to run in 3 Azs (Availability Zones).
 
 
-###Availability Zones
+
+### Availability Zones (AZs)
+
+![image](https://user-images.githubusercontent.com/84306023/124892001-19574d00-dff7-11eb-9992-ae9922303324.png)
+
+
+
+### Edge Locations
+
+![image](https://user-images.githubusercontent.com/84306023/124892671-aef2dc80-dff7-11eb-9fb1-75a5579a0512.png)
+
+
+### GovCloud (US)
+
+-   AWS GovCLoud Regions allow customers to host sensitive **Controlled Unclassified Information** and other types of regulated workloads.
+
+-   GovCloud Regions are only operated by employees who are citizens of the US, and in its soil.
+
+-   The are **only** accessible to U.S. entities and root account holders who pass a screening process.
+
+    ![image](https://user-images.githubusercontent.com/84306023/124895239-0003d000-dffa-11eb-9088-67d2362da83f.png)
+    
+
+## Setting Up AWS and other configurations
+
+
+
+   
+
+
+
+
 
 
 
