@@ -401,6 +401,140 @@
 
 <br />
 
+## An Introduction on the EC2 Pricing Models
+
+<br />
+
+**Link:** https://aws.amazon.com/ec2/pricing/
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125059640-2b092500-e0c9-11eb-9688-049198c605f1.png)
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125060128-a9fe5d80-e0c9-11eb-9f17-082dcde0bdba.png)
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125060274-d2865780-e0c9-11eb-99c9-1a994ff8db92.png)
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125060331-e5009100-e0c9-11eb-9912-bf49068e4ead.png)
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125060381-f21d8000-e0c9-11eb-8e5b-ee1e43af56ba.png)
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125060433-01043280-e0ca-11eb-9ff5-c1bbfad63b7e.png)
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125060642-327cfe00-e0ca-11eb-9686-ac8b919e78e8.png)
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125060713-445ea100-e0ca-11eb-9999-211b73044d57.png)
+
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
 <br />
 
 <br />
