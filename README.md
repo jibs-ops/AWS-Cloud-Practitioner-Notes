@@ -587,10 +587,10 @@
 <br />
 
    *  So for this:
-    1. Add two new instances and for the tagging Key: 
-    2. Project and Value: TerokNo
-    3. Continue doing the same as the remaining way.
-    4. To see what is happening go to the instances page.
+   1. Add two new instances and for the tagging Key: 
+   2. Project and Value: TerokNo
+   3. Continue doing the same as the remaining way.
+   4. To see what is happening go to the instances page.
 
    5. Go to services. 
    6. Resource Groups & Tag Editor.
@@ -886,7 +886,7 @@
 
 <br />
 
-   * Be aware that both these compile only PDFs.
+   * Be aware that both these only compile PDFs.
 
 <br />
 
