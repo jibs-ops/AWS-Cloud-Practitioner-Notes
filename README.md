@@ -467,11 +467,12 @@
 
 <br />
 
-1. Services.
-2. EC2.
-3. AMI.
-4. On the left hand size select “AWS Marketplace”.
-5. Search for tensorflow or any other service you prefer like “Gaucamole”. 
+   * So for this:
+       1. Services.
+       2. EC2.
+       3. AMI.
+       4. On the left hand size select “AWS Marketplace”.
+       5. Search for tensorflow or any other service you prefer like “Gaucamole”. 
 
 <br />
 
@@ -585,23 +586,23 @@
 <br />
 <br />
 
-So for this:
-1. Add two new instances and for the tagging Key: 
-2. Project and Value: TerokNo
-3. Continue doing the same as the remaining way.
-4. To see what is happening go to the instances page.
+   *  So for this:
+    1. Add two new instances and for the tagging Key: 
+    2. Project and Value: TerokNo
+    3. Continue doing the same as the remaining way.
+    4. To see what is happening go to the instances page.
 
-5. Go to services. 
-6. Resource Groups & Tag Editor.
-7. Create a resource group →Tag Based → Group Criteria (check whether it’s there in all supported resource groups).
-8. Tags: enter the key and value →  Add.
-9. Preview Group Resources.
-10. GroupName: TerokNo.
-11. Create Group 
+   5. Go to services. 
+   6. Resource Groups & Tag Editor.
+   7. Create a resource group →Tag Based → Group Criteria (check whether it’s there in all supported resource groups).
+   8. Tags: enter the key and value →  Add.
+   9. Preview Group Resources.
+   10. GroupName: TerokNo.
+   11. Create Group 
 
-*   You can check the New resource group in the AWS Resource Groups → Saved Resource Groups.
+   *   You can check the New resource group in the AWS Resource Groups → Saved Resource Groups.
 
-*   Also in the same section you can see the manage tags in the tag editor and entering the tag key & value. Then searching for the resources. From here the tags can be removed or added. 
+   *   Also in the same section you can see the manage tags in the tag editor and entering the tag key & value. Then searching for the resources. From here the tags can be removed or added. 
 
     -   Adding a tag.
          1. Select all the tags.
@@ -663,669 +664,229 @@ So for this:
         3. To access the account, the only way is to say you’ve forgotten the password.
         4. To move an acocunt to an organization unit select the account and press move to the directory. 
 
-   *  **Policies help you to access resources,so  for example you’ll have only ec2 by naming it → In actions have it as EC2 → And then select “All Actions” → Resources → All Resources → 
+   *  Policies help you to access resources, so for example you’ll have only ec2 by naming it.
+   
+        1. In actions have it as EC2.
+        2. And then select “All Actions”. Resources.
+        3. All Resources. 
 
 <br />
 
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125071883-804c3300-e0d7-11eb-9e6c-9c8012b2a184.png)
 
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
 
 <br />
 
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
+   4. Move on to the conditions and do this by allowing in the code.
+   5. Create Policy.
+  
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125072296-0bc5c400-e0d8-11eb-9fe3-35464456ab30.png)
 
-<br />
 
 <br />
 
-<br />
+   * Assign the policy to the group and the user.
+    1.  AWS Accounts.
+    2.  Policies.
+    3.  Service control Policies.
+    4.  Select Only EC2 and from the below actions select attach policy.
+    5.  And now select the group or user.
+    6.  Go to My Account and close the account if needed from right below.   
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125072719-8db5ed00-e0d8-11eb-9a27-0044d0e454b2.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125072765-9dcdcc80-e0d8-11eb-8186-1e10ae425895.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125072801-ab835200-e0d8-11eb-8777-7176e66ba3f3.png)
+   
+   * A Provisioning is an easy way of setting up resources for you, and it can be done via code and GUI.
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125072879-c950b700-e0d8-11eb-81f0-f8ec33f93529.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125072908-d66da600-e0d8-11eb-9899-fe1272f8d3c5.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125072941-e4232b80-e0d8-11eb-85b5-a4d2c588c33f.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125072985-f4d3a180-e0d8-11eb-86e6-2a8d0c2a1654.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073012-0026cd00-e0d9-11eb-8f50-4a08ec0ab132.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073068-146aca00-e0d9-11eb-8a84-c91a5541d365.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073121-22204f80-e0d9-11eb-95c6-86135b9c61b6.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073155-2b112100-e0d9-11eb-9bee-6079e0678ce1.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073220-40864b00-e0d9-11eb-8e1c-586a3af74b7e.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073247-4a0fb300-e0d9-11eb-8464-be03008b8850.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073304-5d228300-e0d9-11eb-950d-0cf701085e3d.png)
 
-<br />
 
 <br />
 
-<br />
+   * How to get an AWS Artifact
+    1. Services.
+    2. AWS Artifact.
+    3. Select the artifact. 
+    4. Agree to their conditions and download it. (Adobe Acrobat is the only reader available to use). 
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073505-b1c5fe00-e0d9-11eb-9e2a-9587db6ad15c.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073547-c2767400-e0d9-11eb-93d8-a0d7478641b4.png)
 
-<br />
 
 <br />
 
-<br />
+   * Link AWS Shield - https://aws.amazon.com/shield/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073571-cd310900-e0d9-11eb-8dee-d4d7834e4e71.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073715-023d5b80-e0da-11eb-86cc-3f4b6c402fc7.png)
 
-<br />
 
 <br />
 
-<br />
+   * DDOS – Stands for Distributed denial of service attack and this is a malicious attempt to distrupt normal traffic by flooding a website by  number of fake traffic. It’s come with AWS Shield and it is turned on for AWS customer by default at no additional cost. 
 
 <br />
 
-<br />
+   * Shield Advanced must be paid upfront. 
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125073973-521c2280-e0da-11eb-9106-b80a17827cc7.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125074027-619b6b80-e0da-11eb-8da0-fec68ece2909.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125074073-6fe98780-e0da-11eb-9581-c29bfe17487c.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125074122-7e37a380-e0da-11eb-9277-72862109d596.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125074773-58f76500-e0db-11eb-8590-f67921c3544f.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125074796-63196380-e0db-11eb-8d5d-1e1b03b8b34c.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125074827-6d3b6200-e0db-11eb-8680-f522923789ea.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125074856-76c4ca00-e0db-11eb-854d-42fa356ff066.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125074871-80e6c880-e0db-11eb-9977-8c7bdd730e3a.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125074899-8a703080-e0db-11eb-8642-7717e33bee0d.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125074927-93f99880-e0db-11eb-9a72-b960802f4b20.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125074960-9fe55a80-e0db-11eb-8bc5-9a88ce7c4a39.png)
 
-<br />
 
 <br />
 
-<br />
+   * Before application and network load balancer all that was there was the elastic load balancer. Now it has been renamed to classic load balancer. It basically does the job of application and network load balancer and it works a little different. 
 
-<br />
+   * Generally you want to use application and network load balancer. But you can still use the classic load balancer.
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125075149-dcb15180-e0db-11eb-9b3e-b93d45867cea.png)
 
-<br />
 
 <br />
 
-<br />
+   ![image](https://user-images.githubusercontent.com/84306023/125075187-e76be680-e0db-11eb-8bd1-dd21b610328f.png)
 
-<br />
 
 <br />
 
-<br />
+   * Be aware that both these compile only PDFs.
 
 <br />
 
@@ -1351,9 +912,7 @@ So for this:
 
 <br />
 
-<br />
 
-<br />
 
 
    
