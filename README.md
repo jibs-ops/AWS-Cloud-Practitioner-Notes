@@ -158,7 +158,7 @@
 3. Launch Instance. 
 4. Amazon Linux 2 → t2.micro (Free tier eligible). 
 5. Next: Configure Instance Details.
-6. Instances (Number of servers) 
+6. Instances - Number of servers) (Continued Below)
 
 <br />
 
@@ -166,7 +166,12 @@
 
 <br />
 
-    → In the IAM Role → Next: Add Storage → Review and launch → Launch (It is going to ask you to create a key pair. Key pairs are used to get into the server, we don’t need one because we are using SSM as it’s another way of login into the server) → Proceed without a key pair in the drop down menu → To view the progress select “View Instances” → It should turn from yellow to green
+1. (Continuation) → In the IAM Role.
+2. Next: Add Storage.
+3. Review and launch.
+4. Launch (It is going to ask you whether to create a key pair. Key pairs are used to get into the server, we don’t need one because we are using SSM as it’s another way of login into the server).
+5. Proceed without a key pair in the drop down menu.
+6. To view the progress select “View Instances” (It should turn from yellow to green).
 
 <br />
 
@@ -184,20 +189,36 @@
 
 <br />
 
-    In services → SSM → Session Manager (This is under Node Manager)→ Start a session → Logs in as the root user and then the user can be changed as the ec2-user (sudo su – ec2-user)
+1. In services. 
+2. SSM.
+3. Session Manager (This is under Node Manager).
+4. Start a session.
+5. Log in as the root user and then the user can be changed as the ec2-user (sudo su – ec2-user)/
 
 
 <br />
 
-In services → EC2 → Instances → Stop the instances so it would not cost us anything
+1. In services.
+2. EC2. 
+3. Instances.
+4. Stop the instances so it would not cost us anything
 
 <br />
+
+### AMI
 
 * An AMI can be understood as a copy of your server. 
 
 <br />
 
-    Services → EC2 → Instances → Select the image → Got to actions → Image and Instances → Create an Image → Name: fresh-000 → Select the pop up of the due pending image creation (Comes under “Images → AMI” → Launch (It will take you to the settings where creating an instance is used, you can just  go to review and finish it).
+1. Services.
+2. EC2.
+3. Instances.
+4. Select the image.
+5. Go to actions. 
+6. Image and Instances. 
+7. Create an Image → Name: fresh-000.
+8. Select the pop up of the due pending image creation (Comes under “Images → AMI” → Launch (It will take you to the settings where creating an instance is used, you can just  go to review and finish it).
 
 <br />
 
@@ -205,19 +226,36 @@ In services → EC2 → Instances → Stop the instances so it would not cost us
 
 <br />
 
-Services → EC2 → Auto Scaling → Auto Scaling Group (what is does is, it allows you to ensure that multiple instances or servers are running it will have a rule to say that one server is running and if not then launch a new server, also auto scaling groups are used to meet the demand of whatever traffic you have so it will spin up traffic when the demands are high and close when the metrics are low) → Create an auto scaling group → Get Started → Name: Auto Scale → 
+1. Services.
+2. EC2.
+3. Auto Scaling.
+4. Auto Scaling Group - What is does is, it allows you to ensure that multiple instances or servers are running. So it will have a rule to say that one server is running and if not then launch a new server, also auto scaling groups are used to meet the demand of whatever traffic you have so it will spin up traffic when the demands are high and close when the metrics are low).
+5. Create an auto scaling group.
+6. Get Started.
+7. Name: Auto Scale → 
 
 <br />
 
-Services → EC2 → Under “Auto Scalling” select “Auto Scaling Groups” → Create an auto scaling group → “Name: fresh-asg” and select “MyInstance” as the launch template → Configure settings (Select a vpc and select two subnets) → Skip the “Configure advanced options” → Configure Group size and scaling policies (scaling policies are ways in which you can determine how the auto scaling group should react to changes within its environment, so if you have a lot of cpu utilization, when there is a lot of data transfer in or when there is a lot of memory  ) → Skip Add Notifications → Skip Add Tags → Go to review → Create the Auto scaling group by scrolling right down after reviewing everything. 
+1. Services.
+2. EC2.
+3. Under “Auto Scalling” select “Auto Scaling Groups”.
+4. Create an auto scaling group → “Name: fresh-asg” and select “MyInstance” as the launch template.
+5. Configure settings (Select a vpc and select two subnets).
+6. Skip the “Configure advanced options”.
+7. Configure Group size and scaling policies - Scaling policies are ways in which you can determine how the auto scaling group should react to changes within its environment, so if you have a lot of cpu utilization, when there is a lot of data transfer in or when there is a lot of memory.
+8. Skip Add Notifications.
+9. Skip Add Tags.
+10. Go to review.
+11. Create the Auto scaling group by scrolling right down after reviewing everything. 
 
 <br />
 
-Services → EC2 → Under “Auto Scalling” select “Auto Scaling Groups” → Create an auto scaling group → “Name: fresh-asg” and select “MyInstance” as the launch template → Configure settings (Select a vpc and select two subnets) → Skip the “Configure advanced options” → Configure Group size and scaling policies (scaling policies are ways in which you can determine how the auto scaling group should react to changes within its environment, so if you have a lot of cpu utilization, when there is a lot of data transfer in or when there is a lot of memory) → Skip Add Notifications → Skip Add Tags → Go to review → Create the Auto scaling group by scrolling right down after reviewing everything. 
-
-<br />
-
-Once the Auto scaling group has been created → Select it → Go to instances → If it doesn’t load on the right side select instances – Go to the instances tab → and terminate the instance → Go back to the auto scaling group, select instance management and you’ll see the instance as unhealthy → And what it’ll do as a response it launch a new instance → A new instance will be loaded in place of the unhealthy one – Delete the auto scaling group where the instance too will be deleted. You may have to type “delete” to proceed. 
+1. Once the Auto scaling group has been created → Select it.
+2. Go to instances → If it doesn’t load on the right side select instances.
+3. Go to the instances tab → and terminate the instance → 
+4. Go back to the auto scaling group, select instance management and you’ll see the instance as unhealthy → And what it’ll do as a response is launch a new instance.
+5. A new instance will be loaded in place of the unhealthy one.
+6. Delete the auto scaling group where the instance too will be deleted. You may have to type “delete” to proceed. 
 
 
 <br />
@@ -230,11 +268,24 @@ Once the Auto scaling group has been created → Select it → Go to instances �
 
 <br />
 
-Create an instance → Amazon Linux 2 here → t2.micro as it’s free → 2 number of instances & IAM Role: MyEC2Instance (as we don’t have to ssh into it) → pass the next steps and go to “Configure Security Groups” and select the default one → Review and launch and proceed without a key pair → View Instances → Name the two instances as InstanceA & InstanceB.
+1. Create an instance → Amazon Linux 2 here → t2.micro as it’s free.
+2. 2 number of instances & IAM Role: MyEC2Instance (as we don’t have to ssh into it) 
+3. Pass until the next steps and go to “Configure Security Groups” and select the default one.
+4. Review and launch and proceed without a key pair.
+5. View Instances.
+6. Name the two instances as InstanceA & InstanceB.
 
 <br />
 
-Load Balancing under the EC2 Console → Load Balancers → Create Load Balancer → There are four kinds of load balancers (application, network, gateway, and classic) select the application load balancer → type “my-alb” as the name, scheme would be “internet facing” , make sure it is running in two availability zones, else there will be complain to us→ Go to the next step (configure security settings) → As SSL and HTTPS is not being used nothing has to be done in the configure security settings → Select “default” in the configure security groups → In configure routing there is a need to create a new target group, the target group has references to instances where we want to draw traffic to. The name of it would be “ my-target-group”→ Register targets and select the instances → Click next and then create. 
+1. Load Balancing under the EC2 Console.
+2. Load Balancers.
+3. Create Load Balancer - There are four kinds of load balancers (application, network, gateway, and classic) select the application load balancer.
+4. Type “my-alb” as the name, scheme would be “internet facing” , make sure it is running in two availability zones, else there will be complain. 
+5. Go to the next step (configure security settings), SSL and HTTPS will not be used here so nothing has to be done in the configure security settings.
+6. Select “default” in the configure security groups.
+7. In configure routing there is a need to create a new target group, the target group has references to instances where we want to draw traffic to. The name of it would be “ my-target-group”.
+8. Register targets and select the instances.
+9. Click next and then create. 
 
 <br />
 
@@ -250,7 +301,12 @@ Load Balancing under the EC2 Console → Load Balancers → Create Load Balancer
 
 <br />
 
-Services → S3 → (it can be noticed on top that it shows as global, and not specific to a region, however the bucket that would be created would be specific to a region. A region is a place where it contains the files) Create a Bucket → Bucket Name: fresh12 (the name is like the domain name, so it should be specific), select the region → Create a bucket → Select the bucket and upload a file → 
+1. Services. 
+2. S3 - It can be noticed on top that it shows as global, and not specific to a region, however the bucket that would be created would be specific to a region. A region is a place where it contains the files). 
+3. Create a Bucket.
+4. Bucket Name: fresh12 (the name is like the domain name, so it should be specific), select the region.
+5. Create a bucket.
+6. Select the bucket and upload a file → 
 
 <br />
 
@@ -262,7 +318,12 @@ Services → S3 → (it can be noticed on top that it shows as global, and not s
 
 <br />
 
-    Services → CloudFront → Create Distribution → Get Started → select the s3 bucket that we created (fresh12) → Create Distribution. 
+1. Services.
+2. CloudFront.
+3. Create Distribution.
+4. Get Started. 
+5. Select the S3 bucket that we created (fresh12).
+6. Create Distribution. 
 
 <br />
 
@@ -282,7 +343,11 @@ Services → S3 → (it can be noticed on top that it shows as global, and not s
 
 <br />
 
-    Services → RDS → Create Database (Under the dashboard select database and select “Create Database” → It has quite a few options and it has Amazon Aurora selected which is one of the most expensive options, select PostgreSQL → Templates (Continued Below)
+1. Services.
+2. RDS.
+3. Create Database.
+4. Under the dashboard select database and select “Create Database” - It has quite a few options and it has Amazon Aurora selected which is one of the most expensive options, select PostgreSQL instead of it.
+5. Templates (Continued Below)
 
 <br />
 
@@ -290,7 +355,9 @@ Services → S3 → (it can be noticed on top that it shows as global, and not s
 
 <br />
 
-    (Continuation) Free tier →  In settings type a password → In the DB instance class select Burstable classes(db.t3.micro), the Storage will be general purpose and set to 20 GiB (Continued Below)
+6. Free tier.
+7. In settings type a password. 
+8. In the DB instance class select Burstable classes(db.t3.micro), the Storage will be general purpose and set to 20 GiB (Continued Below)
     
 <br />
 
@@ -298,7 +365,11 @@ Services → S3 → (it can be noticed on top that it shows as global, and not s
 
 <br />
 
-    (Continuation) → From below in additional configuration from the database options select a database name: exampro_fresh → In backup turn to 0 days so it will not take a snapshot of the database → Turning off performance insights too as it’s no needed here → Create Database → Select the database that was just created and see the statistics it displays → Destroy the database if needed
+9. From below in additional configuration from the database options select a database name: exampro_fresh.
+10. In backup turn to 0 days so it will not take a snapshot of the database → Turning off performance insights too as it’s no needed here.
+11. Create Database.
+12. Select the database that was just created and see the statistics it displays.
+13. Destroy the database if needed
 
 <br />
 
@@ -310,7 +381,23 @@ Services → S3 → (it can be noticed on top that it shows as global, and not s
 
 <br />
 
+1. Services.
+2. Search for lambda. 
+3. Create a function.
+4. Author from scratch → Name: myLambda, Runtime: Ruby 2.7, select under permissions “Create a new role with Basic Lambda Permissions”  so it could write to cloudwatch launch.
+5. Create Function 
 
+*   So the big benefit of Lambda is, you don’t have to worry about the servers you just write your code and  it will run. The tradeoff here is that they run for only a small amount of time of about up to 15 minutes.  But they generally run for 1 second or less. 
+
+*   In the code add 
+        -   ‘puts “Hello World” ’ below # T000 implement
+6. Test.
+7. Event Name: helloworld.
+8. Create.
+9. Monitor.
+10. View logs in cloudwatch. 
+11. If you want to add a triger you can go down and add one →
+12.  + Add Trigger → And select the service you want to run.
 
 <br />
 
