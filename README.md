@@ -62,7 +62,65 @@ Select the User → My Billing Preferances → Preferences → Billing Preferanc
 
 ### Budgets - Whether you’re going over your predefined budgets and some forecast costs as well)
 
+In the services menu search for “Budgets” → Create a new budget (You get two new budgets in the US) → 
 
+<br />
+
+For billing and services type cloudwatch ( This Monitors resources and applications)→ Billing Metrics (this always lives in the US West 01) → US East 01 (N. Virginia – The region that I selected) → Alarms (there are 10 free alarms)  → Create an alarm and do the editing as you wish. 
+
+<br />
+
+### Change IAM (Manage Access to AWS resources) Users Sign-in link
+
+Change the sign in url to:
+Customize → project-fresh → save
+
+<br />
+
+### Activate MFA on the root account (Adding an additional code after entering the username and password):
+
+IAM Dashboard → Under “Best Practices” → Root Credentials → MFA (Multi Factor Authentication) → Select “Virtual MFA Device” and press continue → Select Google Authenticator on your Android device → On the phone select Scan the QR Code and hold the phone on the computer → And add the two MFA codes one after the other (there is a wheel that is spinning, so it should be added once the first wheel has finished spinning) 
+
+<br />
+
+### Create an Individual IAM User other than the root account for operating with your day to day work:
+
+IAM Dashboard → Below IAM Resources → Select Users → Add User → User Name: DevOps → Access type is Programmatic Access & AWS Management Console Access and select “Next: Permissions” → Create a group called “Admin”  and give it “AdministratorAccess” (You can also select power users which doesn't give you access to manage users & groups) and then select “Next: Tags”→ Next: Review → Create User →
+
+<br />
+
+**The below image shows the user created:**
+
+![image](https://user-images.githubusercontent.com/84306023/125027605-19615680-e0a4-11eb-8e59-dd2e3a74f8cd.png)
+
+
+
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
 
 <br />
 
