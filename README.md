@@ -449,6 +449,336 @@
 
 <br />
 
+## AWS Support Plans
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125061132-a8816500-e0ca-11eb-8e7d-c213d86e915c.png)
+
+
+<br />
+
+## AWS Marketplace
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125061412-f302e180-e0ca-11eb-8b81-b35da5d7170a.png)
+
+
+<br />
+
+1. Services.
+2. EC2.
+3. AMI.
+4. On the left hand size select “AWS Marketplace”.
+5. Search for tensorflow or any other service you prefer like “Gaucamole”. 
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125061731-42491200-e0cb-11eb-8ef8-49da42743040.png)
+
+
+<br />
+
+###   **AWS Trusted Advisor has five types**
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125061992-89cf9e00-e0cb-11eb-86c0-7d623c12d186.png) 
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125062125-b08dd480-e0cb-11eb-9cec-9008827d34f4.png)
+
+
+<br />
+
+##  An example of AWS Trusted Advisor Billing & Pricing
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125062345-e7fc8100-e0cb-11eb-97bc-6248e82651bd.png)
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125062552-242fe180-e0cc-11eb-9b4d-d54e21b0b9ff.png)
+
+
+<br />
+
+*   Note: Consolidated billing is a feature turned on by default when you’re using your organization and when you have multiple member accounts.
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125062780-648f5f80-e0cc-11eb-9970-439cb7a960e3.png)
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125062966-94d6fe00-e0cc-11eb-98c6-8cc7abb02556.png)
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125063023-a3bdb080-e0cc-11eb-9565-243b4fd309a6.png)
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125063104-b3d59000-e0cc-11eb-8a75-b4be7dd7a675.png)
+
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125063156-c3ed6f80-e0cc-11eb-9930-205b97a22cd3.png)
+
+
+<br />
+
+   ### How to create a budget:
+   
+   1. Services.
+   2. AWS Budgets.
+   3. Create a budget.
+   4. Cost Budget.
+   5. Budget Name: Overall Costs, can even go to budget planning → Budget amount: 100 → Filter and then select dimension: services values: EC2.
+   6. Add Alert Threshold alert if it reaches the 80% threshold, ad add the email addresses.
+   7. Create a budget
+
+<br />
+<br />
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125063886-a967c600-e0cd-11eb-8cba-769f9714560a.png)
+
+
+<br />
+<br />
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125063968-c3a1a400-e0cd-11eb-8b59-c3a6eacf628c.png)
+
+
+<br />
+<br />
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125064066-de741880-e0cd-11eb-9467-9c9de925e649.png)
+
+
+<br />
+<br />
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125064159-f9468d00-e0cd-11eb-89d4-8f2e3fa90e10.png)
+
+
+<br />
+<br />
+<br />
+
+![image](https://user-images.githubusercontent.com/84306023/125064734-986b8480-e0ce-11eb-84d5-fffe722bf2c6.png)
+
+
+<br />
+<br />
+<br />
+
+So for this:
+1. Add two new instances and for the tagging Key: 
+2. Project and Value: TerokNo
+3. Continue doing the same as the remaining way.
+4. To see what is happening go to the instances page.
+
+5. Go to services. 
+6. Resource Groups & Tag Editor.
+7. Create a resource group →Tag Based → Group Criteria (check whether it’s there in all supported resource groups).
+8. Tags: enter the key and value →  Add.
+9. Preview Group Resources.
+10. GroupName: TerokNo.
+11. Create Group 
+
+*   You can check the New resource group in the AWS Resource Groups → Saved Resource Groups.
+
+*   Also in the same section you can see the manage tags in the tag editor and entering the tag key & value. Then searching for the resources. From here the tags can be removed or added. 
+
+    -   Adding a tag.
+         1. Select all the tags.
+         2. Manage tags of selected resources.
+         3. Add Tag.
+         4. Tag Key: Federation & Tag Value: StarFleet.
+         5. Review and apply Tag Changes.
+         6. Go to instances to see the changes in tags.
+         7. Remove the Tag if you want to
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125065531-8ccc8d80-e0cf-11eb-8d85-4381e71f280e.png)
+
+
+<br />
+
+*   **AWS Quick starts -** https://aws.amazon.com/quickstart/?solutions-all.sort-by=item.additionalFields.sortDate&solutions-all.sort-order=desc&awsf.filter-tech-category=*all&awsf.filter-industry=*all&awsf.filter-content-type=*all
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125065678-bd142c00-e0cf-11eb-9a6a-3367824afaeb.png)
+
+
+<br />
+
+   1. From the user account press the drop down button.
+   2. My Billing Dashboard.
+   3. Cost & Usage Reports.
+   4. Create Report → Name: MyCostAndUsage (Tick “Include Resource IDs).
+   5. Configure S3 Bucket (S3 Bucket Name: jibs-cost-and-usage).
+   6. Tick “I have confirmed that this policy is correct” → Report Path Prefix:  MyPrefix → Time Granularity: Daily → Compression type: Zip.
+   7. Next → Review and Complete.
+
+<br />
+
+   ![image](https://user-images.githubusercontent.com/84306023/125066343-84c11d80-e0d0-11eb-96c2-a87ec8c5b5ec.png)
+
+
+<br />
+
+   *   **There are two places where you can manage your organizations. They are IAM & Amazon Organizations.**
+
+       * Organization Activity
+       1. Services.
+       2. Identity and Access Management.
+       3. AWS Organizations.
+       4. Organization Activity.
+
+       1. Services.
+       2. Organizations (AWS Organizations).
+       3. Create Organization.
+       4. Verify Your AWS Organization Account sent to your email.
+
+
+        * You can create organization units → in AWS Organizations → In the Actions Drop down menu select 
+        1. “Create: Organization Unit” → Name: Developers.
+        2. Add AWS Account → AWS Account Name: Jibs, email: jibraan35@gmail.com → Verify the email that was sent.
+        3. To access the account, the only way is to say you’ve forgotten the password.
+        4. To move an acocunt to an organization unit select the account and press move to the directory. 
+
+   *  **Policies help you to access resources,so  for example you’ll have only ec2 by naming it → In actions have it as EC2 → And then select “All Actions” → Resources → All Resources → 
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
 <br />
 
 <br />
@@ -566,6 +896,465 @@
 <br />
 
 <br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
 
    
 
